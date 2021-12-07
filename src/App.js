@@ -1,7 +1,7 @@
-import MyComponent from "./MyComponent";
+import Say from "./Say";
 
 const App = () => {
-  return <MyComponent favoriteNumber={3}>리액트 냠냠</MyComponent>;
+  return <Say />;
 };
 
 export default App;
