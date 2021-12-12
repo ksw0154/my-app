@@ -1,7 +1,14 @@
-import Average from "./Hooks/Average";
+import React, { Component } from "react";
+import SassComponent from "./ComponentStyling/SassComponent";
 
-const App = () => {
-  return <Average />;
-};
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
+    );
+  }
+}
 
 export default App;
